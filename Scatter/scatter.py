@@ -4,6 +4,6 @@ output_file("scatter.html")
 
 p=figure()
 
-p.line([1,2,3,4,5],[4,7,1,6,3], line_width=2)
+p.circle([1,2,3,4,5],[4,7,1,6,3], color="navy")
 
 show(p)
